@@ -86,10 +86,20 @@ const OrderManagement = () => {
                                 <span>Orders selected</span>
 
                                 <div className="divider-vertical" />
+                                <button className="link-btn">
+                                    <FontAwesomeIcon icon={faUserPlus} />
+                                    Assign Rider
+                                </button>
 
-                                <button className="link-btn">Assign Rider</button>
-                                <button className="link-btn link-btn--danger">Cancel</button>
-                                <button className="link-btn">Refund</button>
+                                <button className="link-btn link-btn--danger">
+                                    <FontAwesomeIcon icon={faXmark} />
+                                    Cancel
+                                </button>
+
+                                <button className="link-btn">
+                                    <FontAwesomeIcon icon={faDollarSign} />
+                                    Refund
+                                </button>
                             </div>
 
                             <button className="btn btn--primary">
@@ -106,7 +116,7 @@ const OrderManagement = () => {
                                     <tr>
                                         <th>
                                             {/* checkbox */}
-                                            <FontAwesomeIcon icon={faCheckCircle} />
+                                            <input type="checkbox" />
                                         </th>
                                         <th>Order ID</th>
                                         <th>Buyer Name</th>
@@ -123,7 +133,7 @@ const OrderManagement = () => {
                                     <tr>
                                         <td>
                                             {/* checkbox */}
-                                            <FontAwesomeIcon icon={faCheckCircle} />
+                                            <input type="checkbox" />
                                         </td>
                                         <td>#VR-9021</td>
                                         <td>Alex Johnson</td>
@@ -140,7 +150,7 @@ const OrderManagement = () => {
                                     <tr>
                                         <td>
                                             {/* checkbox */}
-                                            <FontAwesomeIcon icon={faCheckCircle} />
+                                            <input type="checkbox" />
                                         </td>
                                         <td>#VR-9021</td>
                                         <td>Alex Johnson</td>
@@ -157,7 +167,7 @@ const OrderManagement = () => {
                                     <tr>
                                         <td>
                                             {/* checkbox */}
-                                            <FontAwesomeIcon icon={faCheckCircle} />
+                                            <input type="checkbox" />
                                         </td>
                                         <td>#VR-9021</td>
                                         <td>Alex Johnson</td>
