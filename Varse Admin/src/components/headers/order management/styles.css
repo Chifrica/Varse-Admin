@@ -5,7 +5,7 @@
   padding: 1rem 2rem;
   background-color: #ffffff;
   border-bottom: 1px solid #e5e5e5;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); */
 }
 
 .header__left {
@@ -39,6 +39,8 @@
   border-radius: 6px;
   border: 1px solid #e5e5e5;
   font-size: 0.9rem;
+  background-color: #f2f2f2;
+  margin-right: 7rem;
 }
 
 /* Nav */
@@ -50,20 +52,21 @@
 .header__tab {
   background: none;
   border: none;
-  padding: 0.75rem 1.25rem;
-  font-size: 0.95rem;
+  margin-left: 3%;
+  padding: 0.5rem .5rem;
+  font-size: 1rem;
   font-weight: 500;
   color: #666;
   cursor: pointer;
   position: relative;
 }
 
-.header__tab.active {
+.header__tab:hover {
   color: #ff8800;
   font-weight: 600;
 }
 
-.header__tab.active::after {
+.header__tab:hover::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -71,7 +74,7 @@
   right: 10%;
   height: 3px;
   background-color: #ff8800;
-  border-radius: 2px;
+  /* border-radius: 2px; */
 }
 
 /* Right side */
@@ -83,13 +86,14 @@
 
 .header__icons {
   display: flex;
-  gap: 1rem;
+  /* gap: -20rem; */
 }
 
 .icon-btn {
   background: none;
   border: none;
-  font-size: 1.2rem;
+  border-width: none;
+  font-size: 1rem;
   cursor: pointer;
 }
 

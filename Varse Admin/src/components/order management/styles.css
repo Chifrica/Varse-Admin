@@ -94,6 +94,7 @@
 
 .filter-btn strong {
   font-weight: 600;
+  color: #ff8800;
 }
 
 .filter-btn--advanced {
@@ -222,16 +223,17 @@
   border: 1px solid #e5e7eb;
 }
 
-.lifecycle-header h3 {
+.lifecycle-header h2 {
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 
 .lifecycle-header p {
-  margin-top: 0.25rem;
-  font-size: 0.85rem;
-  color: #6b7280;
+  margin-top: 0rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #ff8800
 }
 
 .lifecycle {
@@ -251,14 +253,15 @@
 
 .lifecycle-item h4 {
   margin: 0;
-  font-size: 0.9rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .lifecycle-item p {
   margin: 0.25rem 0 0;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: #6b7280;
+  font-weight: 500;
 }
 
 .lifecycle-item.completed {
